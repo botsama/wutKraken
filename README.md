@@ -1,5 +1,5 @@
 # wutKraken
-howdy_wurld
+howdy_wurld - Overview of content
 
 Welcome to a collection of some various, somewhat simple scripts.  I mainline with PowerShell but learned more heavily from MS SQL and Python Scripting.  I try to keep an object based approach for sake of explanation and debugging.
 
