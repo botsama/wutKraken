@@ -19,7 +19,7 @@ https://github.com/botsama/serviceAccount_pwrShl
 More registry querying.  I am showing my age a little bit since I don't know how often an actual ODBC / DSN connection is used, since they tend to be defined in some sort of application config.  However this may be of use if checking for exisiting applications with database connectors.
 https://github.com/botsama/odbcGetConf_pwrShl/blob/master/getOdbc.ps1
 
-Say you have a certain list of file extensions you want to generate an output file for with the SHA256 value for each file.  This script will collect all matching file extensions, generate a SHA256 for each of them (in the same local file folder) and process all matching results in the list.
+Say you have a certain list of file extensions you want to generate an output file for with the SHA256 value for each file.  This script will collect all matching file extensions, generate a SHA256 for each of them (in the same local file folder) and <b>process all matching results in the list, until the loop<b> has completed.
 https://github.com/botsama/hashFile_val/blob/master/getHashFile.ps1
 
 In the event of looking to collect event logs and other machine details, please enjoy the below log collection script.  A few people gave me positive feedback for this one and I appreciate it.  You would never know I spent some time doing SysAdmin roles when reading this script.
